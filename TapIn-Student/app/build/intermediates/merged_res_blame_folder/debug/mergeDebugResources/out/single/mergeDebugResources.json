@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\layout_fragment_attendance.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\layout\\fragment_attendance.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\layout_item_course_attendance.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\layout\\item_course_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\drawable_ic_nfc_wave.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\drawable\\ic_nfc_wave.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tapin.student.app-main-54:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\menu_home_menu.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\menu\\home_menu.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.tapin.student.app-main-54:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\drawable_bg_nfc_status_card.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\drawable\\bg_nfc_status_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\drawable_ic_attendance.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\drawable\\ic_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\drawable_bg_pill.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\drawable\\bg_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\layout_item_session_row.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\layout\\item_session_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\drawable_nfc_ring_ready.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\drawable\\nfc_ring_ready.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-debug-52:\\xml_hce_service.xml.flat",
+        "source": "C:\\Users\\Filip\\.gradle\\daemon\\9.0.0\\com.tapin.student.app-main-54:\\xml\\hce_service.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.tapin.student.app-debug-52:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.tapin.student.app-main-54:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

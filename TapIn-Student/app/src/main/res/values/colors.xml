@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colours -->
+    <color name="navy">#1F3864</color>
+    <color name="navy_dark">#162848</color>
+    <color name="navy_light">#2A4A82</color>
+    <color name="blue">#2E5FAC</color>
+    <color name="blue_light">#4A7FCE</color>
+    <color name="blue_surface">#E8EEF9</color>
+
+    <!-- Semantic colours -->
+    <color name="success">#2E7D32</color>
+    <color name="success_light">#E8F5E9</color>
+    <color name="error">#C62828</color>
+    <color name="error_light">#FFEBEE</color>
+    <color name="warning">#F57F17</color>
+    <color name="warning_light">#FFF8E1</color>
+
+    <!-- Neutral -->
+    <color name="white">#FFFFFF</color>
+    <color name="surface">#F5F7FA</color>
+    <color name="on_surface">#1A1A2E</color>
+    <color name="on_surface_variant">#5C6BC0</color>
+    <color name="divider">#E0E6F0</color>
+    <color name="text_secondary">#6B7280</color>
+
+    <!-- NFC status ring colours -->
+    <color name="nfc_ready_ring">#2E5FAC</color>
+    <color name="nfc_off_ring">#9E9E9E</color>
+    <color name="nfc_success_ring">#2E7D32</color>
+</resources>

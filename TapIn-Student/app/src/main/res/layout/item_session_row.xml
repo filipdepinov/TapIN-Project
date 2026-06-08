@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="8dp">
+
+    <!-- Present / Absent dot -->
+    <View
+        android:id="@+id/view_dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/bg_pill"
+        tools:backgroundTint="#2E7D32" />
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/tv_session_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:textSize="13sp"
+        android:textColor="@color/on_surface"
+        tools:text="Mon, 27 May 2025 09:00" />
+
+    <!-- Status badge -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="3dp"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:text="PRESENT"
+        tools:textColor="#2E7D32"
+        tools:background="@color/success_light" />
+
+</LinearLayout>

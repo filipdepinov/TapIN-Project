@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface">
+
+    <!-- Top AppBar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/navy"
+            app:titleTextColor="@color/white"
+            app:subtitle="Student App"
+            app:subtitleTextColor="#AAFFFFFF"
+            app:menu="@menu/home_menu" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Scrollable body -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="true"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Greeting card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_greeting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_greeting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/on_surface"
+                        tools:text="Hello, Alice Johnson" />
+
+                    <TextView
+                        android:id="@+id/tv_student_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textSize="13sp"
+                        android:textColor="@color/text_secondary"
+                        tools:text="Student ID: STU001" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- NFC Status Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_nfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="32dp"
+                    android:background="@drawable/bg_nfc_status_card">
+
+                    <!-- Animated NFC ring -->
+                    <ImageView
+                        android:id="@+id/iv_nfc_ring"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/nfc_ring_ready"
+                        tools:ignore="ContentDescription" />
+
+                    <!-- NFC status title -->
+                    <TextView
+                        android:id="@+id/tv_nfc_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/nfc_ready_title"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white" />
+
+                    <!-- NFC status subtitle -->
+                    <TextView
+                        android:id="@+id/tv_nfc_subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/nfc_ready_subtitle"
+                        android:textSize="13sp"
+                        android:textColor="#CCFFFFFF"
+                        android:gravity="center"
+                        android:lineSpacingExtra="4dp" />
+
+                    <!-- Token expiry pill -->
+                    <TextView
+                        android:id="@+id/tv_token_expiry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingHorizontal="16dp"
+                        android:paddingVertical="8dp"
+                        android:background="@drawable/bg_pill"
+                        android:textColor="#EEFFFFFF"
+                        android:textSize="12sp"
+                        tools:text="Token expires in 4:32" />
+
+                    <!-- Open NFC settings button (shown when NFC is off) -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_nfc_settings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/btn_open_nfc_settings"
+                        android:backgroundTint="#33FFFFFF"
+                        android:textColor="@color/white"
+                        android:visibility="gone"
+                        app:cornerRadius="12dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Action buttons row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- Refresh token -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_refresh_token"
+                    style="@style/Widget.TapIn.Button.Outlined"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/btn_refresh_token" />
+
+                <!-- My attendance -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_my_attendance"
+                    style="@style/Widget.TapIn.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/btn_my_attendance" />
+
+            </LinearLayout>
+
+            <!-- Snackbar anchor space -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

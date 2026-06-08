@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.tapin.student.app-mergeDebugResources-51:/layout/fragment_attendance.xml",
+        "source": "com.tapin.student.app-main-54:/layout/fragment_attendance.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-mergeDebugResources-51:/layout/item_course_attendance.xml",
+        "source": "com.tapin.student.app-main-54:/layout/item_course_attendance.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-mergeDebugResources-51:/layout/item_session_row.xml",
+        "source": "com.tapin.student.app-main-54:/layout/item_session_row.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.tapin.student.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-mergeDebugResources-51:/layout/fragment_login.xml",
+        "source": "com.tapin.student.app-main-54:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.tapin.student.app-mergeDebugResources-51:/layout/fragment_home.xml",
+        "source": "com.tapin.student.app-main-54:/layout/fragment_home.xml"
+    }
+]

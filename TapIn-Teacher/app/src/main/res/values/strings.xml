@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">TapIn Teacher</string>
+
+    <!-- Login -->
+    <string name="login_title">TapIn Teacher</string>
+    <string name="login_subtitle">Classroom Attendance System</string>
+    <string name="label_email">Email address</string>
+    <string name="label_password">Password</string>
+    <string name="btn_login">Sign In</string>
+
+    <!-- Home -->
+    <string name="home_title">Dashboard</string>
+    <string name="greeting">Hello, %1$s</string>
+    <string name="no_courses">No courses assigned</string>
+    <string name="btn_start_session">Start Attendance</string>
+    <string name="btn_history">View History</string>
+    <string name="btn_sync">Sync Records</string>
+    <string name="pending_sync">%1$d records pending sync</string>
+    <string name="all_synced">All records synced ✓</string>
+
+    <!-- Session / NFC -->
+    <string name="session_title">Attendance Session</string>
+    <string name="nfc_scanning">Hold student phones near device to register</string>
+    <string name="nfc_not_supported">NFC not supported on this device</string>
+    <string name="nfc_disabled">NFC is disabled — enable it in Settings</string>
+    <string name="student_registered">%1$s registered!</string>
+    <string name="student_already_present">%1$s is already marked present</string>
+    <string name="tap_error">Tap error — please try again</string>
+    <string name="btn_close_session">Close Session</string>
+    <string name="session_closed">Session closed. %1$d students recorded.</string>
+    <string name="students_present">%1$d students present</string>
+    <string name="confirm_close_session">Close this session?</string>
+    <string name="confirm_close_message">You won\'t be able to add more students after closing.</string>
+    <string name="btn_confirm">Close Session</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- History -->
+    <string name="history_title">Attendance History</string>
+    <string name="no_sessions">No sessions recorded yet</string>
+    <string name="session_date">%1$s</string>
+    <string name="records_count">%1$d / %2$d students</string>
+
+    <!-- Sync -->
+    <string name="sync_progress">Syncing… %1$d%%</string>
+    <string name="sync_success">Sync complete — %1$d records uploaded</string>
+    <string name="sync_failed">Sync failed — records saved locally</string>
+
+    <!-- Generic -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+</resources>

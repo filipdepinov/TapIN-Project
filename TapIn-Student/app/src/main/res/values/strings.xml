@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TapIn Student</string>
+    <string name="hce_service_description">TapIn NFC Attendance</string>
+    <string name="hce_aid_description">TapIn Student Token</string>
+
+    <!-- Login -->
+    <string name="label_email">Email address</string>
+    <string name="label_password">Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="login_title">Welcome to TapIn</string>
+    <string name="login_subtitle">Student Attendance System</string>
+    <string name="error_empty_email">Email is required</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_empty_password">Password is required</string>
+    <string name="error_login_failed">Login failed. Check your credentials.</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Hello, %1$s</string>
+    <string name="home_student_id">Student ID: %1$s</string>
+    <string name="nfc_ready_title">Ready to Tap</string>
+    <string name="nfc_ready_subtitle">Hold your phone near your teacher\'s device to register attendance</string>
+    <string name="nfc_off_title">NFC is Off</string>
+    <string name="nfc_off_subtitle">Please enable NFC in Settings to register attendance</string>
+    <string name="nfc_not_supported">This device does not support NFC</string>
+    <string name="btn_open_nfc_settings">Open NFC Settings</string>
+    <string name="btn_refresh_token">Refresh Token</string>
+    <string name="btn_my_attendance">My Attendance</string>
+    <string name="btn_logout">Sign Out</string>
+    <string name="token_expires_in">Token expires in %1$s</string>
+    <string name="token_refreshed">Token refreshed successfully</string>
+    <string name="tap_success">Attendance registered!</string>
+    <string name="tap_failed">Tap failed — please try again</string>
+
+    <!-- Attendance -->
+    <string name="attendance_title">My Attendance</string>
+    <string name="attendance_rate">Attendance Rate</string>
+    <string name="sessions_attended">%1$d / %2$d sessions</string>
+    <string name="no_attendance_data">No attendance data yet</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="retry">Retry</string>
+</resources>

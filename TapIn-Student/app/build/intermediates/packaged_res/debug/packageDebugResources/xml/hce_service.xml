@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    HCE (Host Card Emulation) service descriptor.
+    AID: F0544150494E3031 = "TapIn01" in hex — custom AID for our app.
+    The teacher app sends SELECT APDU with this AID to identify the student app.
+-->
+<host-apdu-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/hce_service_description"
+    android:requireDeviceUnlock="false">
+
+    <aid-group
+        android:category="other"
+        android:description="@string/hce_aid_description">
+
+        <aid-filter android:name="F0544150494E3031" />
+
+    </aid-group>
+
+</host-apdu-service>

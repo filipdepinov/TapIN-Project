@@ -1,0 +1,53 @@
+<resources>
+    <style name="Theme.TapInTeacher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/navy</item>
+        <item name="colorPrimaryVariant">@color/navy_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/navy_dark</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="materialButtonStyle">@style/Widget.TapIn.Button</item>
+        <item name="textInputStyle">@style/Widget.TapIn.TextInput</item>
+    </style>
+
+    <style name="Theme.TapInTeacher.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/navy</item>
+        <item name="postSplashScreenTheme">@style/Theme.TapInTeacher</item>
+    </style>
+
+    <style name="Widget.TapIn.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/navy</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.TapIn.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/navy</item>
+        <item name="android:textColor">@color/navy</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="Widget.TapIn.Button.Danger" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/error</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="Widget.TapIn.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/blue</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>

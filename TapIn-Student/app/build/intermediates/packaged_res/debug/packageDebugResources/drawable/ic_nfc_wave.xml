@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Phone body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,14 C30.7,14 28,16.7 28,20 L28,76 C28,79.3 30.7,82 34,82 L62,82 C65.3,82 68,79.3 68,76 L68,20 C68,16.7 65.3,14 62,14 Z" />
+
+    <!-- Phone screen -->
+    <path
+        android:fillColor="#1F3864"
+        android:pathData="M32,22 L64,22 L64,70 L32,70 Z" />
+
+    <!-- NFC waves (right side) -->
+    <path
+        android:strokeColor="#2E5FAC"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round"
+        android:pathData="M72,38 C76,40 79,44 79,48 C79,52 76,56 72,58" />
+    <path
+        android:strokeColor="#2E5FAC"
+        android:strokeWidth="2.5"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round"
+        android:pathData="M75,33 C81,36 85,42 85,48 C85,54 81,60 75,63" />
+
+    <!-- Checkmark inside screen -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M39,48 L45,54 L57,42" />
+
+    <!-- Home button indicator -->
+    <path
+        android:fillColor="#1F3864"
+        android:pathData="M44,74 C44,72.9 44.9,72 46,72 L50,72 C51.1,72 52,72.9 52,74 C52,75.1 51.1,76 50,76 L46,76 C44.9,76 44,75.1 44,74 Z" />
+</vector>

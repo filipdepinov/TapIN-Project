@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.tapin.teacher.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tapin.teacher.ui.home.HomeFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_session"
+            app:destination="@id/sessionFragment"/>
+        <action
+            android:id="@+id/action_home_to_history"
+            app:destination="@id/historyFragment"/>
+        <action
+            android:id="@+id/action_home_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/sessionFragment"
+        android:name="com.tapin.teacher.ui.session.SessionFragment"
+        android:label="Session"
+        tools:layout="@layout/fragment_session">
+        <argument
+            android:name="courseId"
+            app:argType="string"/>
+        <argument
+            android:name="courseName"
+            app:argType="string"/>
+        <argument
+            android:name="courseCode"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.tapin.teacher.ui.history.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history"/>
+
+</navigation>

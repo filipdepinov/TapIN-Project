@@ -1,0 +1,3 @@
+com.tapin.teacher.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
