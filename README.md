@@ -48,7 +48,7 @@ TapIn е дистрибуиран систем за евиденција на п
 ### Инфраструктура
 - **База на податоци:** Supabase (PostgreSQL) — EU West (Paris)
 - **Backend:** Railway — https://tapin-production-4955.up.railway.app
-- **Верзионирање:** GitHub — https://github.com/filipdepinov/TapIN
+- **Верзионирање:** GitHub — https://github.com/filipdepinov/TapIN-Project
 
 ## Безбедност
 
